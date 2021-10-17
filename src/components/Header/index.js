@@ -1,5 +1,4 @@
 import qantasLogo from "./qantas-logo.png";
-import "../App.css";
 
 function Header() {
   return (

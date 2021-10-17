@@ -1,4 +1,4 @@
-const response = {
+export const response = {
   results: [
     {
       id: "cxd650nuyo",
