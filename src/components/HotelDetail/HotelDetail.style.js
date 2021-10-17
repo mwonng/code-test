@@ -4,6 +4,10 @@ export const HotelContainer = styled.div`
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+
+  @media only screen and (max-width: 376px) {
+    margin-top: 20px;
+  }
 `;
 
 export const HotelPicture = styled.div`
@@ -71,6 +75,7 @@ export const HotelTitle = styled.div`
   overflow: hidden;
   margin-right: 10px;
 `;
+
 export const HotelAddress = styled.div`
   font-size: 0.8rem;
   color: #666666;
