@@ -69,7 +69,11 @@ For my opinion, UI test should better use storybook, functions and busienss logi
 
 ## Hightlight:
 
-1. Lazy load ribbon for remote picture resource.(loading unsplash picture).
+1. Lazy load ribbon for remote picture unsplash resource.
+   > Ribbon will only show after the image been loaded.
 2. Quick responsive layout.
+   > Have a basic response layout using flex box
 3. Native select component.
+   > simple solution on native select control
 4. Simulate real world async API response
+   > real world won't have response before it loaded.
