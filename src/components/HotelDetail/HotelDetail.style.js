@@ -16,6 +16,10 @@ export const HotelPicture = styled.div`
     width: 100%;
     height: auto;
   }
+
+  @media only screen and (max-width: 376px) {
+    margin: auto;
+  }
 `;
 
 export const HotelInfo = styled.div`
@@ -26,7 +30,13 @@ export const HotelPrice = styled.div`
   display: flex;
   flex-direction: column;
   text-align: right;
-  justify-content: flex-end;
+  justify-content: space-around;
+
+  @media only screen and (max-width: 376px) {
+    flex-grow: 1;
+    text-align: center;
+    margin: auto;
+  }
 `;
 
 export const PromotionRibbon = styled.span`
@@ -45,6 +55,10 @@ export const HotelInfoContainer = styled.div`
   justify-content: space-between;
   flex-wrap: wrap;
   border-top: 1px solid #ccc;
+  @media only screen and (max-width: 376px) {
+    border-top: unset;
+    border-bottom: 1px solid #ccc;
+  }
 `;
 
 export const HotelTitle = styled.div`
@@ -67,8 +81,14 @@ export const PropertyName = styled.div`
 `;
 export const CancellationType = styled.div`
   position: absolute;
+  font-weight: 600;
   bottom: 10px;
   color: darkgreen;
+
+  @media only screen and (max-width: 376px) {
+    bottom: 10px;
+    right: 0px;
+  }
 `;
 
 export const PriceBig = styled.span`

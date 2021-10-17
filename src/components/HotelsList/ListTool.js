@@ -1,4 +1,4 @@
-import { ListToolContainer } from "./HotelsList.style";
+import { ListToolContainer, SortControl } from "./HotelsList.style";
 function ListTool({ data, onChange }) {
   const handleChange = (e) => {
     onChange(e.target.value);
@@ -10,7 +10,7 @@ function ListTool({ data, onChange }) {
       <span>
         {results} <i>hotels in </i> <strong>Sydney.</strong>
       </span>
-      <span>
+      <SortControl>
         <label htmlFor="sortBy">Sort By </label>
         <select
           name="sortBy"
@@ -24,7 +24,7 @@ function ListTool({ data, onChange }) {
           <option value="high">Price hight-low</option>
           <option value="low">Price low-high</option>
         </select>
-      </span>
+      </SortControl>
     </ListToolContainer>
   );
 }

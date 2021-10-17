@@ -10,3 +10,10 @@
   width: 80%;
   margin: 20px auto;
 }
+
+@media only screen and (max-width: 376px) {
+  /* For everything bigger than 768px */
+  .Header > img {
+    width: 100%;
+  }
+}

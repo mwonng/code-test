@@ -9,3 +9,9 @@ export const ListToolContainer = styled.div`
   justify-content: space-between;
   padding: 10px;
 `;
+
+export const SortControl = styled.span`
+  @media only screen and (max-width: 376px) {
+    text-align: right;
+  }
+`;
